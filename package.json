@@ -1,0 +1,54 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.2.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "http-proxy-middleware": "^2.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.11.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "layout": "cp ./build/index.html ./app/views/pages/index.html.liquid",
+    "assets:remove": "rm -rf ./app/assets/web-app",
+    "assets:copy": "mv ./build/ ./app/assets/web-app",
+    "start": "craco start",
+    "build": "craco build && npm run layout && npm run assets:remove && npm run assets:copy",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
+    "@tailwindcss/postcss7-compat": "^2.2.4",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}

@@ -1,0 +1,10 @@
+name: profile
+properties:
+  - name: name
+  - name: first_name
+  - name: last_name
+  - name: birth
+    type: date
+  - name: foods
+    type: array
+  - name: bio

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/css/main.1a277dad.chunk.css",
+    "main.js": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/main.4a3afb13.chunk.js",
+    "main.js.map": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/main.4a3afb13.chunk.js.map",
+    "runtime-main.js": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/runtime-main.cba680dc.js",
+    "runtime-main.js.map": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/runtime-main.cba680dc.js.map",
+    "static/js/2.44dfaf80.chunk.js": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/2.44dfaf80.chunk.js",
+    "static/js/2.44dfaf80.chunk.js.map": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/2.44dfaf80.chunk.js.map",
+    "static/js/3.c867cfb5.chunk.js": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/3.c867cfb5.chunk.js",
+    "static/js/3.c867cfb5.chunk.js.map": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/3.c867cfb5.chunk.js.map",
+    "index.html": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/index.html",
+    "static/css/main.1a277dad.chunk.css.map": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/css/main.1a277dad.chunk.css.map",
+    "static/js/2.44dfaf80.chunk.js.LICENSE.txt": "https://uploads.staging.oregon.platform-os.com/instances/5987/assets/web-app/static/js/2.44dfaf80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cba680dc.js",
+    "static/js/2.44dfaf80.chunk.js",
+    "static/css/main.1a277dad.chunk.css",
+    "static/js/main.4a3afb13.chunk.js"
+  ]
+}

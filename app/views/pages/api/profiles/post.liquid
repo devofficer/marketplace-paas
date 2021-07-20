@@ -1,0 +1,20 @@
+---
+slug: api/profiles
+method: post
+layout: ''
+response_headers: >
+  {% render 'shared/api/headers' %}
+---
+
+{% liquid
+  assign id = context.params.id
+  assign name = context.params.name
+  assign first_name = context.params.first_name
+  assign last_name = context.params.last_name
+  assign birth = context.params.birth
+  assign foods = context.params.foods
+  assign bio = context.params.bio
+  graphql result = 'profiles/update', id: id, name: name, first_name: first_name, last_name: last_name, birth: birth, foods: foods, bio: bio
+%}
+
+{{ result }}

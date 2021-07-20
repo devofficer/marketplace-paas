@@ -1,0 +1,8 @@
+query ($id: ID!) {
+  profile: records(per_page: 20, filter: {id: {value: $id}}) {
+    results {
+      properties
+      id
+    }
+  }
+}

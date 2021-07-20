@@ -1,0 +1,9 @@
+mutation ($id: ID!, $name: String, $first_name: String, $last_name: String, $birth: String, $foods: String, $bio: String) {
+  record_update(
+    id: $id
+    record: {table: "profile", id: $id, properties: [{name: "name", value: $name}, {name: "first_name", value: $first_name}, {name: "last_name", value: $last_name}, {name: "birth", value: $birth}, {name: "foods", value: $foods}, {name: "bio", value: $bio}]}
+  ) {
+    id
+    properties
+  }
+}

@@ -1,0 +1,13 @@
+---
+slug: api/profiles
+method: get
+layout: ''
+response_headers: >
+  {% render 'shared/api/headers' %}
+---
+
+{% liquid
+  graphql result = 'profiles/read', id: context.params.id
+%}
+
+{{ result }}
